@@ -1,9 +1,12 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue 
-with the owners of this repository before making a change.
+First of all, thank you for your interest in contributing to (one of) Syde's public repos. We greatly appreciate your feedback, suggestions and code contributions. 
+When contributing to any repository, please first discuss the change you wish to make with the owners of this repository via an Issue, a Pull Request, or both.
 
-Please note we have a [code of conduct](./CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Since Syders need to prioritize their day-to-day work for our client projects and products over the maintenance of public repositories, the responsible maintainers might not be able to respond to your requests or comments straight away. Still, as a rule, we try to respond to requests within a week. If you have been waiting for longer than two weeks, it's OK to post a friendly reminder in the issue thread.
+
+On that note: we have a [code of conduct](./CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+
 
 ## Pull Request Process
 
@@ -41,47 +44,15 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 ## <a name="commit"></a> Commit Message Format
 
-*This specification is inspired by and supersedes the [AngularJS commit message format][commit-message-format].*
+When working on this repository, we encourage you to follow the [7 rules of a great commit message](https://cbea.ms/git-commit/#seven-rules):
 
-We have very precise rules over how our Git commit messages must be formatted.
-This format leads to **easier to read commit history**.
+1. Separate subject from body with a blank line
+2. Limit the subject line to 50 characters
+3. Capitalize the subject line
+4. Do not end the subject line with a period
+5. Use the imperative mood in the subject line
+6. Wrap the body at 72 characters
+7. Use the body to explain what and why vs. how
 
-Each commit message consists of a **header**, a **body**, and a **footer**.
-
-
-```
-<header>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
-
-The `header` is mandatory and must conform to the [Commit Message Header](#commit-header) format.
-
-Any line of the commit message cannot be longer than 100 characters.
-
-#### <a name="commit-header"></a>Commit Message Header
-
-```
-<type>: <short summary>
-  │             │
-  │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
-  │
-  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
-```
-
-The `<type>` and `<summary>` fields are mandatory.
-
-##### Type
-
-Must be one of the following:
-
-* **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-* **ci**: Changes to our CI configuration files and scripts (example scopes: Github Action)
-* **docs**: Documentation only changes
-* **feat**: A new feature
-* **fix**: A bug fix
-* **perf**: A code change that improves performance
-* **refactor**: A code change that neither fixes a bug nor adds a feature
-* **test**: Adding missing tests or correcting existing tests
+While our company standard is based upon these seven rules, do not be surprised if you encounter slightly different formats being used in our projects. Some of our public projects were created years ago, in a time where we did many things differently, including the composition of commit messages. Currently, we also allow prefixes in the commit message header for repositories that rely on those prefixes for release automation. Still, this is something you might not see in use on the repository you may be interested in.  
+The most important thing to remember is to use common sense and write clear and concise commit messages.
